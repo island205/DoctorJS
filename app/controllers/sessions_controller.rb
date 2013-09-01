@@ -44,7 +44,7 @@ class SessionsController < ApplicationController
     if @user
       session[:user_id] = @user.id
       flash[:notice] = "Welcome #{@user.login}"
-      redirect_to '/'
+      redirect_to '/project/index'
     else
       flash[:notice] = "The login or password is not correct"
       redirect_to new_session_path

@@ -1,4 +1,6 @@
 DoctorJS::Application.routes.draw do
+  get "project/index"
+
   resources :sessions
 
 
