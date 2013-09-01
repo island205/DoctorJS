@@ -44,7 +44,7 @@
 	}
 }
 
-.features-container, .getting-started-container, .login-form-container{
+.features-container, .getting-started-container, .login-form-container, .dashbord-container{
 	background-color: #fcfcfc;
 }
 .features{
@@ -92,3 +92,65 @@
 		margin-right: 30px;
 	}
 }
+
+.dashbord-container{
+	border-top: 1px solid silver;
+}
+
+.dashbord{
+	display: -webkit-box;
+	width: 900px;
+	margin: 56px auto;
+	background-color: white;
+	border: 1px solid silver;
+	min-height: 600px;
+	.side-panel{
+		-webkit-box-flex: 2;
+		border-right: 1px solid silver;
+		.projects{
+			list-style:none;
+			padding-left:0px;
+			border-bottom: 1px solid silver;
+			.project{
+				font-size: 14px;
+				font-weight: bold;
+				padding: 20px;
+				border-bottom: 1px solid silver;
+				color: #333;
+
+			}
+		}
+	}
+	.content{	
+		-webkit-box-flex: 7;
+	}
+}
+.add-project {
+	.add-icon {
+		background-color: silver;
+		display: inline-block;
+		margin-left: 20px;
+		width: 18px;
+		text-align: center;
+		line-height: 16px;
+		height: 18px;
+		color: white;
+		vertical-align: bottom; 
+		-webkit-border-radius: 9px 9px;
+	}
+	a{
+		color: #999;
+	}	
+}
+
+.time-period {
+	text-align: center;
+}
+
+.project-dashbord{
+	padding: 50px;
+	botton {
+		margin: 0 15px;
+	}
+}
+ 
