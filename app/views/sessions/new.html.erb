@@ -1,14 +1,3 @@
-<div class="page-header">
-	<div class="row">
-		<div class="col-md-10">
-			<a><img src="/assets/logo.png" /></a>
-		</div>
-		<div class="col-md-2">
-			<button type="button" class="btn btn-default login-btn"><img src="/assets/user.png" />登录</button>
-		</div>
-	</div>
-</div>
-
 <div class="row banner">
 	<section class="banner-descroption">
 		<h1>使用DoctorJS</h1>
@@ -46,7 +35,7 @@
 
 		  <%= text_field_tag :login, params[:login], :class => "form-control", :placeholder => "用户名" %>
 		  <%= password_field_tag :password, params[:password], :class => "form-control", :placeholder => "密码" %>
-		  <button type="button" class="btn btn-default">登录</button>
+		  <button type="submit" class="btn btn-default">登录</button>
 		<% end %>
 	</div>
 </div>
